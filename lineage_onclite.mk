@@ -30,16 +30,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# riceDroid Stuff
-RISING_MAINTAINER := MrUn1corn
-WITH_GMS := false
-SUSHI_BOOTANIMATION := 720
-TARGET_BUILD_APERTURE_CAMERA := true
-TARGET_ENABLE_BLUR := true
+# Device Specific stuff
+DEVICE_MAINTAINER := JacksProject™
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Allow usage of custom binary linker (LD), default is false
-TARGET_KERNEL_OPTIONAL_LD := true
 
 # AudioFx
 TARGET_EXCLUDES_AUDIOFX := true

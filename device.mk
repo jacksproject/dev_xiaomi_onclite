@@ -119,7 +119,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth.audio@2.0-impl \
-    libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
@@ -160,7 +159,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.system \
-    libgenlock \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
 
@@ -172,12 +170,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.4.vendor
-
-# Ebtables
-PRODUCT_PACKAGES += \
-    ebtables \
-    ethertypes \
-    libebtc
 
 # FM
 PRODUCT_PACKAGES += \
@@ -313,7 +305,6 @@ PRODUCT_PACKAGES += \
     libOmxCore \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
@@ -377,7 +368,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.class_main.sh \
-    init.qcom.bt.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh
 
@@ -393,7 +383,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.2.vendor \
     librmnetctl \
-    libcnefeatureconfig \
     libxml2 \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
@@ -467,10 +456,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     libcld80211 \
-    libQWiFiSoftApCfg \
     libwpa_client \
     hostapd \
-    dhcpcd.conf \
     wcnss_service \
     wificond \
     wpa_supplicant \

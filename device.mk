@@ -428,7 +428,7 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    camera.msm8953_shim \
+    libui_shim.vendor \
     libshim_dpmframework
 
 # System
